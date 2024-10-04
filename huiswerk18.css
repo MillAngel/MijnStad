@@ -1,0 +1,166 @@
+body{
+    background-color: darkgreen;
+    margin: 20px;
+    }
+    header{
+        color: darkgreen; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    min-height: 100px;
+    border-radius: 50px;
+    border: 5px solid white;
+    padding: 20px;
+    background-color: white;
+    background-image:url(skyline\ rotterdam\ dag.jpeg) ;
+    background-size: contain;
+    
+    }
+    
+    
+    [class*="col-"] {
+        width: 100%;
+    }
+    
+        [class*="col-"] {
+        }
+  
+  
+    
+    #inhoudeen{
+    color: darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    background-color: white;
+    text-align: left;
+    border-radius: 50px;
+    border: solid bisque;
+    display: inline-block;
+    padding: 1px;
+    margin-top: 10px;
+    }
+    
+    #inhoudtwee{
+    color: darkgreen;
+    background-color: bisque; 
+    border-radius: 50px;
+    border: solid white;
+    display: inline-block;
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    img{
+        margin: 5px;
+        border-radius: 50px;
+        border: 5px solid white;
+        padding: 5px;
+        min-width: fit-content;
+     }
+ 
+    li{
+        list-style-type: none;
+        text-align: center;
+        margin-right: 50px;
+
+    }
+    
+    footer{
+    background-color: lightgreen;
+    text-align: center;
+    border-radius: 50px;
+    border: solid white;
+    padding: 20px;
+    }
+.artikel{text-align: center;}
+
+@media only screen and (min-width: 768px){
+    body{
+        background-color: darkgreen;
+        margin: 20px;
+        }
+        header{
+            color: darkgreen; 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        min-height: 100px;
+        border-radius: 50px;
+        border: 5px solid white;
+        padding: 20px;
+        background-color: white;
+        background-image:url(skyline\ rotterdam\ dag.jpeg) ;
+        background-size: contain;
+        
+        }
+        
+        
+        [class*="col-"] {
+            width: 100%;
+        }
+        
+            [class*="col-"] {
+            }
+        
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        
+        #inhoudeen{
+            min-height:600px;
+            color: darkgreen;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: white;
+        border-radius: 50px;
+        border: solid white;
+        display: inline-block;
+        padding-bottom: 95px;
+       padding-top: 77px;
+       text-align: center;
+        }
+        
+        #inhoudtwee{
+        min-height:600px;
+        color: darkgreen;
+        background-color: bisque;
+        border-radius: 50px;
+        border: solid white;
+        display: inline-block;
+        padding: 25px;
+        padding-top: 110px;
+        padding-right: 50px;
+        
+        }
+        img{
+            float: right;
+            margin: 5px;
+            border-radius: 50px;
+            border: 5px solid white;
+            padding: 5px;
+            max-width: 100px; 
+            height: auto;
+        }
+        li{
+            list-style-type: none;
+        }
+        
+        footer{
+        background-color: lightgreen;
+        text-align: left;
+        border-radius: 50px;
+        border: solid white;
+        padding: 20px;
+        }
+   .artikel{
+    display: flex;
+  align-items: center;
+   }
+
+} 
